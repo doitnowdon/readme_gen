@@ -51,6 +51,11 @@ const questions = [
     },
     {
         type: "input",
+        name: "usage",
+        message: "Please add the technologies associated with this projects ", 
+    },
+    {
+        type: "input",
         name: "creator",
         message: "Please enter your GitHub username here:", 
     },{
@@ -63,14 +68,25 @@ const questions = [
         name: "contributors",
         message: "Provide list of contributores:", 
     },
+    {
+        type: "input",
+        name: "test",
+        message: "Provide test instructions:", 
+    },
    
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    return fs.writeFileSync(path.join(process.cwd(), fileName), data);
+}
 
 // TODO: Create a function to initialize app
-function init() {}
-
+function init() {
+    inquirer.prompt(questions).then((responses) => {
+        console.log("Make a README.md file .!");
+        writeToFile("./src/README.md", generateMarkdown({...responses }));
+    });
+}
 // Function call to initialize app
 init();
