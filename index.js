@@ -21,7 +21,7 @@ const questions = [
     {
         type: "input",
         name: "description",
-        message: "Description of scope and functionality of the project:", 
+        message: "Description of Functionality and Instructions of the project:", 
     },
     {
         type: "input",
