@@ -1,5 +1,5 @@
-# clear
-![Github license](https://img.shields.io/badge/license--green.svg)
+# README FILE GENERATOR
+![Github license](https://img.shields.io/badge/license-BOOST,MIT-green.svg)
 
 ## Table of Contents !
  * [Descriptions](#description)
@@ -15,34 +15,34 @@
 
 
 ## Descriptions 
-fjdksjafk
+THIS README FILE GENERATOR HAS CREATED BY USING NODEJS AND NPM INQUIRER, AND IT WAS GENERATE PROFESSIONAL READ ME FILE FOR YOUR PROJECT 
 
 ## Screenshot 
-![alt-text](kfdsjaklfjkdlsa)
+![alt-text](./test1.png)
 
 ## Deployed Repo URL 
-fdsljfkladsjlf
+https://github.com/doitnowdon/readme_gen
 
 ## Features 
-gfd
+THIS APP AUTOMATICALLY GENERATE README FILE FOR YOUR PROJECT 
 
 ## Dependencies
-gfdsgdfsg
+inquirer 8.2.4
 
 ## Technologies 
-g
+NODEJS NPM INQUIRER 
 
 ## Testing
-gfdg
+N/A
 
 ## Contributores
-dfs
+doitnowdon
 
 
 ## Licence
     
-     licence under  license.
+     licence under BOOST,MIT license.
 ## Questions
-Please send your queries [here](mailto:sg?subject=[GitHub]%20Dev%20Connect) or visit [github/dfsgdf](https://github.com/dfsgdf).
+Please send your queries [here](mailto:donsyntex@gmail.com?subject=[GitHub]%20Dev%20Connect) or visit [github/doitnowdon](https://github.com/doitnowdon).
 
 
